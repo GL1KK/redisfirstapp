@@ -1,0 +1,18 @@
+[project]
+name = "redisfirstapp"
+version = "0.1.0"
+description = ""
+authors = [
+    {name = "GL1KK",email = "danya_serov05@internet.ru"}
+]
+readme = "README.md"
+requires-python = ">=3.13"
+dependencies = [
+    "aioredis (>=2.0.1,<3.0.0)",
+    "fastapi[all] (>=0.116.1,<0.117.0)"
+]
+
+
+[build-system]
+requires = ["poetry-core>=2.0.0,<3.0.0"]
+build-backend = "poetry.core.masonry.api"
